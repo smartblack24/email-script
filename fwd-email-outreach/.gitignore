@@ -1,0 +1,26 @@
+# Binaries
+/bin/
+/outreach
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Data & secrets
+data/*.db
+data/*.db-*
+*.db
+.env
+credentials.json
+token.json
+client_secret*.json
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Test / coverage
+coverage.out
+*.test

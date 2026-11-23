@@ -1,0 +1,12 @@
+Subject: Last note from {{.BusinessName}}
+
+Hi {{.FirstName}},
+
+I'll keep this brief — if now isn't the right time, no worries at all. If you are interested in discussing opportunities related to {{.Specialization}}, I'm glad to reconnect.
+
+Thank you for your time,
+{{.SenderName}}
+{{.BusinessName}}
+{{.BusinessAddress}}
+
+To opt out of future emails, reply or write to {{.OptOutEmail}}.

@@ -1,0 +1,20 @@
+Subject: Exploring collaboration with {{.FullName}}
+
+Hi {{.FirstName}},
+
+My name is {{.SenderName}} with {{.BusinessName}}. I'm reaching out because of your background in {{.Specialization}}{{if .Country}} in {{.Country}}{{end}}.
+
+We help organizations with specialized consulting engagements and thought your experience could be a strong fit for upcoming opportunities.
+
+{{if .ProfileLinks}}I reviewed your profile:
+{{.ProfileLinks}}
+{{end}}
+If you're open to a brief conversation, just reply to this email.
+
+Best regards,
+{{.SenderName}}
+{{.BusinessName}}
+{{.BusinessAddress}}
+{{.SenderEmail}}
+
+To opt out of future emails, reply or write to {{.OptOutEmail}}.
