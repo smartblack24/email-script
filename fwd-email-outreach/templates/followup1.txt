@@ -1,0 +1,14 @@
+Subject: Following up — {{.BusinessName}}
+
+Hi {{.FirstName}},
+
+I wanted to follow up on my earlier note about potential collaboration with {{.BusinessName}}.
+
+Given your focus on {{.Specialization}}, I believe a short call could be worthwhile. Happy to work around your schedule.
+
+Best,
+{{.SenderName}}
+{{.BusinessName}}
+{{.BusinessAddress}}
+
+To opt out of future emails, reply or write to {{.OptOutEmail}}.
